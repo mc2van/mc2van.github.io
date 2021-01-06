@@ -1,4 +1,4 @@
-.bg-normal {
+.bg-reg {
     background-color: #F9F7F0;
 }
 
@@ -18,8 +18,12 @@
 }
 
 #main-title {
-    font-family: 'Jacques Francois', serif;
     font-size: 40px;
+}
+
+.subtitles {
+    font-family: 'Jacques Francois', serif;
+    font-size: 30px;
     color: #040303;
 }
 
@@ -28,7 +32,7 @@
     height: auto;
     border-radius: 50%;
     margin-left: 10%;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 20px;
+    box-shadow: rgba(0, 0, 0, 0.248) 0px 5px 25px;
     min-width: 200px;
 }
 
@@ -37,6 +41,27 @@
     font-size: 19px;
     color: #040303;
     font-weight: 500;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+.card-title a {
+    color: #F3EFE0;
+}
+
+.card-title a:hover, .project-card .body-text {
+    color: white;
+}
+
+.project-card {
+    background-color: #6A7B76 !important;
+    box-shadow: rgba(32, 48, 44, 0.248) 0px 0px 20px 1px !important;
 }
 
 .container {
