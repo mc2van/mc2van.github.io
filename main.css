@@ -1,3 +1,53 @@
-body {
-    background-color: #f3efe0;
+body .bg-normal {
+    background-color: #F9F7F0;
+}
+
+#header {
+    margin-top: 8%;
+}
+
+#name {
+    font-family: 'Alegreya SC', serif;
+    font-size: 70px;
+    color: #8B9D83;
+    font-weight: 500;
+}
+
+#main-title {
+    font-family: 'Jacques Francois', serif;
+    font-size: 35px;
+    color: #040303;
+    font-weight: 500;
+}
+
+.container {
+    padding: 0 75px !important;
+}
+
+@media screen and (max-width: 540px) {
+    #name {
+        font-size: 58px;
+        letter-spacing: -1.4px;
+    }
+    #main-title {
+        font-size: 25px;
+        letter-spacing: -1.4px;
+    }
+    .container {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 840px) and (min-width: 541px) {
+    #name {
+        font-size: 64px;
+        letter-spacing: -1.4px;
+    }
+    #main-title {
+        font-size: 30px;
+        letter-spacing: -1.4px;
+    }
+    .container {
+        padding: 0 !important;
+    }
 }
