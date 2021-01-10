@@ -1,11 +1,3 @@
-.bg-reg {
-    background-color: #F9F7F0;
-}
-
-.bg-alt {
-    background-color: #F3EEE2;
-}
-
 #header {
     margin-top: 8%;
 }
@@ -21,14 +13,8 @@
     font-size: 40px;
 }
 
-.subtitles {
-    font-family: 'Jacques Francois', serif;
-    font-size: 30px;
-    color: #040303;
-}
-
 #headshot {
-    width: 70%;
+    width: 90%;
     height: auto;
     border-radius: 50%;
     margin-left: 10%;
@@ -36,9 +22,41 @@
     min-width: 200px;
 }
 
+#contact {
+}
+
+.resume-link {
+    color: #8B9D83;
+}
+
+.resume-link:hover {
+    color: #3A4E48;
+}
+
+.bg-reg {
+    background-color: #F9F7F0;
+}
+
+.bg-alt {
+    background-color: #F3EEE2;
+}
+
+.subtitles {
+    font-family: 'Jacques Francois', serif;
+    font-size: 30px;
+    color: #040303;
+}
+
 .body-text {
     font-family: 'Palanquin', sans-serif;
     font-size: 19px;
+    color: #040303;
+    font-weight: 500;
+}
+
+.body-text-larger {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 24px;
     color: #040303;
     font-weight: 500;
 }
@@ -83,6 +101,9 @@
     .container {
         padding: 0 !important;
     }
+    .body-text-larger {
+        font-size: 22px;
+    }
     #headshot {
         max-width: 200px;
     }
@@ -102,6 +123,9 @@
     }
     .container {
         padding: 0 !important;
+    }
+    .body-text-larger {
+        font-size: 20px;
     }
     #headshot {
         max-width: 200px;
