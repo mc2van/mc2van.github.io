@@ -19,11 +19,9 @@
     border-radius: 50%;
     margin-left: 10%;
     box-shadow: rgba(0, 0, 0, 0.248) 0px 5px 25px;
-    min-width: 200px;
 }
 
-#contact {
-}
+#contact {}
 
 .resume-link {
     color: #8B9D83;
@@ -73,7 +71,8 @@
     color: #F3EFE0;
 }
 
-.card-title a:hover, .project-card .body-text {
+.card-title a:hover,
+.project-card .body-text {
     color: white;
 }
 
@@ -86,26 +85,46 @@
     padding: 0 75px !important;
 }
 
+.logo-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-logos {
+    width: 100%;
+    height: auto;
+    min-width: 80px;
+}
+
 @media screen and (max-width: 840px) and (min-width: 541px) {
     #name {
         font-size: 64px;
         letter-spacing: -1.4px;
     }
+
     #main-title {
         font-size: 33px;
         letter-spacing: -1.4px;
     }
+
     .body-text {
         font-size: 18px;
     }
+
     .container {
         padding: 0 !important;
     }
+
     .body-text-larger {
         font-size: 22px;
     }
+
     #headshot {
         max-width: 200px;
+    }   
+
+    .contact-logos {
+        min-width: 65px;
     }
 }
 
@@ -114,20 +133,33 @@
         font-size: 58px;
         letter-spacing: -1.4px;
     }
+
     #main-title {
         font-size: 26px;
         letter-spacing: -1.4px;
     }
+
     .body-text {
         font-size: 17px;
     }
+
     .container {
         padding: 0 !important;
     }
+
     .body-text-larger {
         font-size: 20px;
     }
+
     #headshot {
         max-width: 200px;
+    }
+
+    .contact-logos {
+        min-width: 50px;
+    }
+
+    .section {
+        width: 100% !important;
     }
 }
